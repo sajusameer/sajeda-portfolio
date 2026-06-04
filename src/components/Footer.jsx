@@ -1,9 +1,9 @@
 import {
   FaGithub,
   FaLinkedin,
-  FaFiverr,
+  
 } from "react-icons/fa";
-import { SiFiverr } from "react-icons/si";
+
 
 export default function Footer() {
   return (
@@ -27,6 +27,7 @@ export default function Footer() {
             <a
               href="https://github.com/sajusameer"
               target="_blank"
+              className="hover:text-green-500 transition"
             >
               <FaGithub />
             </a>
@@ -34,16 +35,25 @@ export default function Footer() {
             <a
               href="https://linkedin.com/in/sajedadeveloper"
               target="_blank"
+              className="hover:text-green-500 transition"
             >
               <FaLinkedin />
             </a>
 
-            <a
+            {/* <a
               href="https://fiverr.com/sajedadeveloper"
               target="_blank"
             >
               <SiFiverr />
-            </a>
+            </a> */}
+            <a
+                href="https://fiverr.com/sajedadeveloper"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-semibold hover:text-green-500 transition"
+                >
+                Fiverr
+                </a>
 
           </div>
 
