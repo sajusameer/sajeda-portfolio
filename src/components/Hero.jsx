@@ -36,7 +36,7 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4 mt-8">
             <a
-              href="https://drive.google.com/file/d/1GD4OSp-eHCBXqDnS65UuNZOLlvgeAVLG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1pntuGCnXwSsZrmeqnzAblCI_sWGf1HrW/view?usp=sharing"
               target="_blank"
               className="btn btn-success"
             >
