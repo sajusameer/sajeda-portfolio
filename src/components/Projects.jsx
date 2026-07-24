@@ -107,23 +107,23 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-3 mt-6">
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-success btn-sm flex-1 text-center"
-                  >
-                    Live Demo ↗
-                  </a>
+                <div className="flex flex-col gap-3 mt-6">
+  <a
+    href={project.live}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn btn-success w-full hover:scale-105 transition-all duration-300"
+  >
+    Live Demo ↗
+  </a>
 
-                  <Link
-                    href={`/projects/${project.id}`}
-                    className="btn btn-outline btn-success btn-sm flex-1 text-center"
-                  >
-                    View Details
-                  </Link>
-                </div>
+  <Link
+    href={`/projects/${project.id}`}
+    className="btn btn-outline btn-success w-full hover:scale-105 transition-all duration-300"
+  >
+    View Details
+  </Link>
+</div>
               </div>
             </div>
           ))}
