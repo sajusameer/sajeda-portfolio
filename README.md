@@ -1,36 +1,236 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👩‍💻 Sajeda Begum - Developer Portfolio
 
-## Getting Started
+Welcome to my personal developer portfolio.
 
-First, run the development server:
+This portfolio showcases my skills, experience, projects, and journey as a **Junior Full Stack Developer (MERN Stack)**.
+
+🌐 **Live Portfolio:**  
+https://sajeda-portfolio-jqb2.vercel.app
+
+---
+
+## 👋 About Me
+
+I am a passionate **Junior Full Stack Developer** focused on building modern, responsive, and scalable web applications.
+
+I specialize in creating full-stack solutions using **React.js, Next.js, Node.js, Express.js, and MongoDB**. I enjoy developing clean user interfaces, building efficient backend systems, and solving real-world problems through technology.
+
+I am also exploring **AI-powered applications, Agentic AI, and Gemini API integration** to create smarter and more innovative solutions.
+
+---
+
+## ✨ Features
+
+- ✅ Fully responsive design for desktop, tablet, and mobile
+- ✅ Modern dark-themed user interface
+- ✅ Built with Next.js App Router
+- ✅ Tailwind CSS and DaisyUI integration
+- ✅ Smooth animations using Framer Motion
+- ✅ Hero section with resume download option
+- ✅ Social media integration
+- ✅ About Me section
+- ✅ Skills showcase
+- ✅ Educational qualification section
+- ✅ Experience section
+- ✅ Dynamic projects section
+- ✅ Individual project details pages
+- ✅ Live demo and GitHub repository links
+- ✅ Contact section
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React.js
+- Next.js
+- TypeScript
+- Tailwind CSS
+- DaisyUI
+- Framer Motion
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+- JWT Authentication
+
+### Database
+
+- MongoDB
+- Mongoose
+
+### AI Integration
+
+- Agentic AI
+- Gemini API
+- AI-powered application features
+
+### Tools & Deployment
+
+- Git
+- GitHub
+- VS Code
+- Postman
+- Vercel
+- Netlify
+
+---
+
+# 📂 Projects
+
+## 🤖 CareerPilot AI
+
+An AI-powered career recommendation platform that helps users discover suitable career paths, required skills, project suggestions, and personalized learning roadmaps.
+
+**Tech Stack:**
+
+Next.js, TypeScript, Gemini API, AI Integration
+
+
+---
+
+## 🏨 StayEase
+
+A modern hotel booking platform that provides users with a smooth booking experience and responsive interface.
+
+**Tech Stack:**
+
+Next.js, TypeScript, Tailwind CSS
+
+
+---
+
+## 🏥 QueueLess
+
+A clinic queue management system designed to reduce patient waiting time and improve appointment management.
+
+**Tech Stack:**
+
+Next.js, TypeScript, Tailwind CSS, DaisyUI
+
+
+---
+
+## 💼 SkillsWIP
+
+A freelancing-style platform where users can showcase skills, explore opportunities, and connect through a modern web interface.
+
+**Tech Stack:**
+
+React.js, Node.js, Express.js, MongoDB
+
+
+---
+
+## 🚗 DriveFleet
+
+A complete car rental platform with user authentication, vehicle booking, and booking management features.
+
+**Tech Stack:**
+
+React.js, Next.js, Node.js, Express.js, MongoDB, JWT
+
+
+---
+
+## 🖼️ Tiles Gallery
+
+A responsive image gallery application with a modern interface and dynamic rendering.
+
+**Tech Stack:**
+
+React.js, Tailwind CSS
+
+
+---
+
+## 🤝 Keen Keeper
+
+A social platform where users can connect, manage activities, and interact through a responsive interface.
+
+**Tech Stack:**
+
+React.js, Firebase, MongoDB, Node.js, Express.js
+
+---
+
+# 📁 Project Structure
+
+```
+portfolio/
+│
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── data/
+│   └── styles/
+│
+├── public/
+│   └── images/
+│
+├── package.json
+└── README.md
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone your-repository-url
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 📞 Contact
 
-To learn more about Next.js, take a look at the following resources:
+**Sajeda Begum**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📧 Email: your-email@example.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔗 LinkedIn:  
+https://www.linkedin.com/in/sajedadeveloper
 
-## Deploy on Vercel
+💻 GitHub:  
+https://github.com/sajusameer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🌐 Portfolio:  
+https://sajeda-portfolio-jqb2.vercel.app
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+# 📄 License
+
+This project is open source and created for learning, showcasing skills, and professional opportunities.

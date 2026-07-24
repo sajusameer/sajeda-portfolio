@@ -112,42 +112,41 @@ export const projects = [
       "Integration with real-world job platforms",
     ],
   },
-
-  // 2. Skillswip
+  // 2. StayEase
   {
-    id: "skillswip",
-    name: "Skillswip",
-    image: "/skillswip.png",
-    live: "https://skillswip.vercel.app",
-    github: "https://github.com/sajusameer/skillswip",
+    id: "stayease",
+    name: "StayEase",
+    image: "/stayease.png",
+    live: "https://stayease-4a9c.vercel.app",
+    github: "https://github.com/sajusameer/stayease",
 
     tech: [
-      "React",
       "Next.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
+      "TypeScript",
+      "React",
       "Tailwind CSS",
+      "MongoDB",
     ],
 
     description:
-      "A freelancing marketplace platform where users can showcase their skills, offer services, discover opportunities, and connect with potential clients through a modern web interface.",
+      "A modern hotel booking platform that allows users to explore accommodations, view hotel details, and manage their booking experience through a responsive interface.",
 
     challenges: [
-      "Designing a user-friendly freelancing marketplace workflow",
-      "Managing dynamic service listings and user data",
-      "Creating an intuitive and responsive user interface",
-      "Handling different user interactions across the platform",
+      "Building a smooth hotel browsing and booking workflow",
+      "Creating responsive and reusable UI components",
+      "Managing hotel and booking data efficiently",
+      "Designing an intuitive user experience",
     ],
 
     future: [
-      "Online payment integration",
-      "Real-time messaging between clients and freelancers",
-      "User rating and review system",
-      "Advanced service search and filtering",
+      "Online payment gateway integration",
+      "Hotel owner management dashboard",
+      "Advanced hotel search and filtering",
+      "User reviews and rating system",
     ],
   },
 
+ 
   // 3. QueueLess
   {
     id: "queue-less",
@@ -182,39 +181,41 @@ export const projects = [
     ],
   },
 
-  // 4. StayEase
+   // 4. Skillswip
   {
-    id: "stayease",
-    name: "StayEase",
-    image: "/stayease.png",
-    live: "https://stayease-4a9c.vercel.app",
-    github: "https://github.com/sajusameer/stayease",
+    id: "skillswip",
+    name: "Skillswip",
+    image: "/skillswip.png",
+    live: "https://skillswip.vercel.app",
+    github: "https://github.com/sajusameer/skillswip",
 
     tech: [
-      "Next.js",
-      "TypeScript",
       "React",
-      "Tailwind CSS",
+      "Next.js",
+      "Node.js",
+      "Express.js",
       "MongoDB",
+      "Tailwind CSS",
     ],
 
     description:
-      "A modern hotel booking platform that allows users to explore accommodations, view hotel details, and manage their booking experience through a responsive interface.",
+      "A freelancing marketplace platform where users can showcase their skills, offer services, discover opportunities, and connect with potential clients through a modern web interface.",
 
     challenges: [
-      "Building a smooth hotel browsing and booking workflow",
-      "Creating responsive and reusable UI components",
-      "Managing hotel and booking data efficiently",
-      "Designing an intuitive user experience",
+      "Designing a user-friendly freelancing marketplace workflow",
+      "Managing dynamic service listings and user data",
+      "Creating an intuitive and responsive user interface",
+      "Handling different user interactions across the platform",
     ],
 
     future: [
-      "Online payment gateway integration",
-      "Hotel owner management dashboard",
-      "Advanced hotel search and filtering",
-      "User reviews and rating system",
+      "Online payment integration",
+      "Real-time messaging between clients and freelancers",
+      "User rating and review system",
+      "Advanced service search and filtering",
     ],
   },
+
 
   // 5. DriveFleet
   {
