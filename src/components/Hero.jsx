@@ -15,7 +15,7 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-green-500 font-medium mb-3">
+          {/* <p className="text-green-500 font-medium mb-3">
             Hello, I'm
           </p>
 
@@ -32,16 +32,42 @@ export default function Hero() {
             I build responsive, scalable and modern web
             applications using React, Next.js, Node.js,
             Express.js and MongoDB.
-          </p>
+          </p> */}
+          <p className="text-green-500 font-medium mb-3">
+          Hello, I'm
+        </p>
+
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          Sajeda
+          <span className="text-green-500"> Begum</span>
+        </h1>
+
+        <h2 className="text-2xl mt-4 text-slate-300">
+          Junior Full Stack Developer | MERN Stack
+        </h2>
+
+        <p className="mt-6 text-slate-400 max-w-xl leading-relaxed">
+          I build modern, responsive and scalable full-stack web applications
+          using React.js, Next.js, Node.js, Express.js and MongoDB.
+          Passionate about clean UI, backend development and AI-powered solutions.
+        </p>
 
           <div className="flex flex-wrap gap-4 mt-8">
-            <a
+            {/* <a
               href="https://drive.google.com/file/d/1pntuGCnXwSsZrmeqnzAblCI_sWGf1HrW/view?usp=sharing"
               target="_blank"
               className="btn btn-success"
             >
               Download Resume
-            </a>
+            </a> */}
+            <a
+            href="https://drive.google.com/file/d/1pntuGCnXwSsZrmeqnzAblCI_sWGf1HrW/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+           className="btn btn-success hover:scale-105 hover:shadow-lg hover:shadow-green-500/30 transition-all duration-300"
+          >
+            Download Resume
+          </a>
 
             <a
               href="#projects"
@@ -87,7 +113,7 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
@@ -104,7 +130,38 @@ export default function Hero() {
               className="rounded-3xl border-4 border-green-500 object-cover relative"
             />
           </div>
-        </motion.div>
+        </motion.div> */}
+        <motion.div
+  initial={{ opacity: 0, x: 50 }}
+  animate={{
+    opacity: 1,
+    x: 0,
+    y: [0, -12, 0],
+  }}
+  transition={{
+    duration: 0.7,
+    y: {
+      duration: 3,
+      repeat: Infinity,
+      ease: "easeInOut",
+    },
+  }}
+  className="flex justify-center"
+>
+  <div className="relative">
+
+    <div className="absolute inset-0 bg-green-500 blur-3xl opacity-20 rounded-full"></div>
+
+    <Image
+      src="/profile.jpeg"
+      alt="Sajeda Begum"
+      width={420}
+      height={420}
+      className="rounded-3xl border-4 border-green-500 object-cover relative"
+    />
+
+  </div>
+</motion.div>
 
       </div>
     </section>

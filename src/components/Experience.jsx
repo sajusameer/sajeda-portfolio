@@ -4,7 +4,7 @@ export default function Experience() {
       id="experience"
       className="py-24 bg-slate-950 text-white"
     >
-      <div className="max-w-7xl mx-auto px-5">
+      {/* <div className="max-w-7xl mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-12">
           Experience
         </h2>
@@ -41,7 +41,58 @@ export default function Experience() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
+      <div className="max-w-7xl mx-auto px-5">
+  <h2 className="text-4xl font-bold text-center mb-12">
+    Experience
+  </h2>
+
+  <div className="max-w-4xl mx-auto bg-slate-900 p-8 rounded-2xl border border-slate-800 shadow-lg">
+
+    <h3 className="text-2xl font-bold">
+      Junior Full Stack Developer
+    </h3>
+
+    <p className="text-green-500 mt-2">
+      Freelance Developer
+    </p>
+
+    <p className="text-slate-400 mt-4">
+      Building modern full-stack web applications with MERN stack,
+      focusing on responsive UI, scalable backend systems and
+      real-world problem solving.
+    </p>
+
+    <ul className="list-disc pl-5 mt-5 space-y-3 text-slate-300">
+
+      <li>
+        Developed responsive web applications using React.js and Next.js.
+      </li>
+
+      <li>
+        Built RESTful APIs using Node.js and Express.js.
+      </li>
+
+      <li>
+        Designed and integrated MongoDB database solutions.
+      </li>
+
+      <li>
+        Implemented authentication and authorization using JWT.
+      </li>
+
+      <li>
+        Integrated AI features using Gemini API and Agentic AI concepts.
+      </li>
+
+      <li>
+        Deployed and maintained applications using Vercel and Netlify.
+      </li>
+
+    </ul>
+
+  </div>
+</div>
     </section>
   );
 }
